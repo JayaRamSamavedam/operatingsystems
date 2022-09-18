@@ -2,8 +2,6 @@
 """case 1:
 int first case we have to check the process have least aarrival time
 if many process are coming at same time we have to check for the burst time"""
-
-
 def sortat(bt,p):
     a=[]
     for i in range(len(p)):
