@@ -1,10 +1,8 @@
 import operator
-
-
 def func(a,b,x):
     j=0
     for i in range(x,-1,-1):
-        if(b[i]==a):
+        if( b[i] == a):
             return i
     return -1
 # a is the element
