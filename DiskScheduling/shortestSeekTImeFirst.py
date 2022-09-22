@@ -1,3 +1,5 @@
+
+#it will find the nearest nukber in the given array
 def find(n,d):
     a=[(d[i],abs(n-d[i])) for i in range(len(d)) if(d[i]!=n)]
     for i in range(len(a)):

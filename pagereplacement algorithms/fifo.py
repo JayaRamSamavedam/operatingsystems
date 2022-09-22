@@ -16,7 +16,3 @@ for i in range(len(a)):
         t = q.popleft()
         ptable[ptable.index(t)] = a[i]
     print(a[i],'->',ptable)
-
-
-
-

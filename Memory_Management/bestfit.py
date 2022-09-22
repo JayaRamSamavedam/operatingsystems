@@ -11,10 +11,7 @@ a = []
 for i in range(n):
     x = int(input())
     a.append([i + 1, x])
-
-
 # this will read the process memory to be allocated
-
 # lets create a function to get the acurate of the rearest element
 
 def find(n, a):
