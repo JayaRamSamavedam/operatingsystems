@@ -24,5 +24,3 @@ for i in range(len(a)):
             c=list(d.items())
             ptable[ptable.index(c[0][0])]=a[i]
     print(ptable)
-
-
